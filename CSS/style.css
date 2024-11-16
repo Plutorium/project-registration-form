@@ -7,6 +7,7 @@ body {
     align-items: center;
     box-sizing: border-box;
 }
+/* affects both left and right side*/
 .container {
     display: flex;
     background: #fff;
@@ -22,20 +23,24 @@ img {
 .left-section, .right-section {
     padding: 30px;
     flex: 1;
-}
+} 
+/* Left side styling */
 .left-section {
     background-color: lightgrey;
-    text-align: left;
 }
 .left-section p {
     padding: 5px;
 }
+/* Right side styling */
 .right-section h2{
  font-size: 24px;
  margin-bottom: 20px;
 }
 .right-section a{
         color: purple;
+}
+.right-section {
+    margin-bottom: 20px;
 }
 #firstname, #lastname {
     flex: 1;
@@ -44,15 +49,14 @@ img {
 #email, #password{
     width: 100%;
 }
-input {
+.right-section label {
+    color: grey;
+}
+/* Form styling */
+.form-info input {
     border: 2px solid #c6bfbf;
     padding: 8px;
     border-radius: 4px;
-}
-.checkbox {
-    display: flex;
-    align-items: center;
-
 }
 /* Button Styling */
 button {
