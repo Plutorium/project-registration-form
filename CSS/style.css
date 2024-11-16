@@ -16,6 +16,7 @@ body {
 img {
     height: 100px;
     width: 100px;
+    margin-bottom: 10px;
 }
 .left-section, .right-section {
     padding: 30px;
@@ -23,7 +24,26 @@ img {
 }
 .left-section {
     background-color: lightgrey;
+    text-align: left;
 }
+.left-section p {
+    padding: 5px;
+}
+/* Button Styling */
+button {
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: white;
+    background-color:#1595cb;
+    padding: 10px 20px;
+}
+button:hover {
+    background-color:#1a82ad;
+}
+button:active{
+    background-color:#136081;
+} */
 /* * {
     margin: 0;
     padding: 0;
@@ -46,16 +66,3 @@ form {
 a {
     color: purple;
 }
-/* Button Styling */
-button {
-    border-radius: 4px;
-    font-size: 1rem;
-    color: white;
-    background-color:#1595cb;
-}
-button:hover {
-    background-color:#1a82ad;
-}
-button:active{
-    background-color:#136081;
-} */
