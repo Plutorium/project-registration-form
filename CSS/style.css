@@ -2,3 +2,14 @@ body {
     font-family: 'karla' sans-serif;
     display: flex;
 }
+input {
+    border-radius: 4px;
+    
+}
+form {
+    margin-left: 50px;
+}
+button {
+    border-radius: 4px;
+    font-size: 1rem;
+}
