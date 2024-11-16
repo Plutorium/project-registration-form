@@ -1,5 +1,6 @@
 body {
     font-family: 'karla' sans-serif;
+    font-weight: 400;
     display: flex;
 }
 input {
@@ -12,4 +13,6 @@ form {
 button {
     border-radius: 4px;
     font-size: 1rem;
+    color: white;
+    background-color:#1595cb ;
 }
