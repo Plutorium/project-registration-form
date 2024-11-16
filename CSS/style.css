@@ -2,16 +2,16 @@ body {
     font-family: 'karla' sans-serif;
     font-weight: 400;
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    box-sizing: border-box;
 }
 .container {
     display: flex;
     background: #fff;
-    border-radius: 10px;
+    border: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
 }
 img {
     height: 100px;
@@ -45,7 +45,9 @@ img {
     width: 100%;
 }
 input {
-    border: 1px solid #ccc;
+    border: 2px solid #c6bfbf;
+    padding: 8px;
+    border-radius: 4px;
 }
 .checkbox {
     display: flex;
@@ -59,30 +61,11 @@ button {
     font-size: 1rem;
     color: white;
     background-color:#1595cb;
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 button:hover {
     background-color:#1a82ad;
 }
 button:active{
     background-color:#136081;
-} */
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container {
-    text-align: center;
-    align-items: center;
-}
-input {
-    border-radius: 4px;
-    
-}
-#email, #password {
-
-}
-form {
-    margin-left: 50px;
-}
+} 
