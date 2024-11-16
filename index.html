@@ -12,20 +12,27 @@
 <body>
     <div class="container">
         <div class="left-section">
+            <img src="/assets/yollo-logo.svg" alt="Yoll Logo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Incidunt ratione 
+                consequuntur esse rerum inventore! Saepe incidunt quidem molestias expedita 
+                amet! Tenetur facere veniam amet asperiores placeat accusamus obcaecati non modi.
+            </p>
         </div>
         <div class="right-section">
             <form>
             <h1>Registration Form</h1>
             <label for="firstname" >First Name:</label>
-            <input type="text" id="firstname" placeholder="Enter your first name" required>
+            <input type="text" name="firstname" placeholder="Enter your first name" required>
+
+
             <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" placeholder="Enter your last name" required><br>
+            <input type="text" name="lastname" placeholder="Enter your last name" required><br>
             <label for="email">Email:</label> <br>
-            <input type="email" id="email" placeholder="Enter your email" required><br>
+            <input type="email" name="email" placeholder="Enter your email" required><br>
             <label for="password">Password:</label><br>
-            <input type="password" id="password" placeholder="Enter your password" required><br>
-            <input type="checkbox" id="checkbox" required>
-            <label for="checkbox">I agree with the <a href="#">Terms and Conditions</a></label> <br>
+            <input type="password" name="password" placeholder="Enter your password" required><br>
+            <input type="checkbox" name="terms" id="terms" required>
+            <label for="terms">I agree with the <a href="#">Terms and Conditions</a></label> <br>
             <button type="submit" id="submit">Register</button>
         </form>
         </div>
