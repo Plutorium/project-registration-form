@@ -29,6 +29,13 @@ img {
 .left-section p {
     padding: 5px;
 }
+.right-section h2{
+ font-size: 24px;
+ margin-bottom: 20px;
+}
+.right-section a{
+        color: purple;
+}
 /* Button Styling */
 button {
     border: none;
@@ -62,7 +69,4 @@ input {
 }
 form {
     margin-left: 50px;
-}
-a {
-    color: purple;
 }
