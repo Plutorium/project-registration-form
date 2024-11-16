@@ -14,5 +14,11 @@ button {
     border-radius: 4px;
     font-size: 1rem;
     color: white;
-    background-color:#1595cb ;
+    background-color:#1595cb;
+}
+button:hover {
+    background-color:#1a82ad;
+}
+button:active{
+    background-color:#136081;
 }
