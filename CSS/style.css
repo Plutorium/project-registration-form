@@ -44,14 +44,10 @@ img {
 /* Right side styling */
 .right-section h2{
  font-size: 24px;
- margin-bottom: 20px;
+ margin: 20px;
 }
 .right-section a{
         color: purple;
-}
-.right-section {
-    margin-bottom: 20px;
-    padding: 5px;
 }
 .right-section input {
     padding: 8px;
@@ -64,14 +60,15 @@ img {
 /* Form styling */
 .form-info input {
     border: 2px solid #c6bfbf;
-    padding: 8px;
+    padding: 6px;
     border-radius: 4px;
 }
 .full-name-container {
     display: flex;
     width: 100%;
-    gap: 20px;
+    gap: 10px;
     margin-bottom: 1rem;
+    margin-left: 5px;
 }
 
 .full-name-container > div {
@@ -86,19 +83,24 @@ img {
 }
 .email-group {
     margin-bottom: 1rem;
+
 }
 .password-group {
     margin-bottom: 1rem;
 }
 
 .email-password-container div {
+    display: flex;
     width: 100%;
+    margin-left: 5px;
+    flex-direction: row;
 }
 .email-password-container div > input {
     width: 100%;
 }
 .register-button {
-    margin-top: 1rem    ;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 
