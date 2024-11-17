@@ -35,7 +35,7 @@ img {
 } 
 /* Left side styling */
 .left-section {
-    background-color: lightgrey;
+    background-color: rgb(234, 234, 234);
 }
 .left-section p {
     padding: 5px;
