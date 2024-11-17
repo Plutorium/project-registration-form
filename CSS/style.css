@@ -71,7 +71,6 @@ img {
     width: 100%;
     gap: 10px;
     margin-bottom: 1rem;
-    margin-left: 5px;
 }
 
 .full-name-container > div {
@@ -80,6 +79,10 @@ img {
 
 .full-name-container > div > input {
     width: 100%;
+}
+.full-name-container div > label {
+    display: block;
+    margin-bottom: 5px;
 }
 /* Email and Password Styling */
 .email-password-container {
@@ -95,18 +98,15 @@ img {
 
 .email-password-container div {
     width: 100%;
-    margin-left: 5px;
-    flex-direction: row;
 }
-.email-password-container div > input {
-    width: 100%;
-}
-.container label, 
+
 .email-password-container div > label {
     display: block;
     margin-bottom: 5px;
 }
-
+.email-password-container div > input {
+    width: 100%;
+}
 
 
 /* Button Styling */
