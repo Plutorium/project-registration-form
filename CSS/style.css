@@ -39,6 +39,7 @@ img {
 }
 .left-section p {
     padding: 5px;
+    margin-bottom: 1rem;
 }
 /* Right side styling */
 .right-section h2{
@@ -109,7 +110,7 @@ button {
     font-size: 1rem;
     color: white;
     background-color:#1595cb;
-    padding: 10px 40px;
+    padding: 5px 25px 5px 25px;
 }
 button:hover {
     background-color:#1a82ad;
