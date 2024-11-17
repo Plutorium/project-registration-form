@@ -49,9 +49,11 @@ img {
 #firstname, #lastname {
     flex: 1;
     flex-direction: column;
+    padding: 5px;
 }
 #email, #password{
-    width: 100%;
+    width: 90%;
+    padding: 5px;
 }
 .right-section label {
     color: grey;
