@@ -101,8 +101,10 @@ img {
 .email-password-container div > input {
     width: 100%;
 }
+.container label, 
 .email-password-container div > label {
-    margin-bottom: 20px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 
