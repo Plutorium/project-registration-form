@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=div., initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/CSS/style.css">
     <title>Registration Form</title>
 </head>
+
 <body>
     <!--
             ^ ~ ^
@@ -23,8 +26,8 @@
     <div class="container">
         <div class="left-section">
             <img src="/assets/yollo-logo.svg" alt="Yoll Logo">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Incidunt ratione 
-                consequuntur esse rerum inventore! Saepe incidunt quidem molestias expedita 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Incidunt ratione
+                consequuntur esse rerum inventore! Saepe incidunt quidem molestias expedita
                 amet! Tenetur facere veniam amet asperiores placeat accusamus obcaecati non modi.
             </p>
             <button for="submit" class="log-in">Log In</button>
@@ -32,26 +35,36 @@
         <div class="right-section">
             <h2>Registration Form</h2>
             <form>
-             <div class="col-1">
-                <div class="form-row" >
-                <label for="firstname" >First Name:</label>
-                <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required> <br>
+
+                <div class="full-name-container">
+                    <div class="f-name-group input">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="l-name-group input">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required>
+                    </div>
                 </div>
-                <div class="col-2">
-                <label for="lastname">Last Name:</label>
-                <input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required><br>
-                </div>
+
+
+                <!-- TODO: Create separate div container for middle inputs -->
+                <!-- Wrap the label and input in a separate div that defines a group of elements (label and input) -->
                 <label for="email">Email:</label> <br>
                 <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
                 <label for="password">Password:</label><br>
                 <input type="password" name="password" id="password" placeholder="Enter your password" required><br>
-                </div>
                 <input type="checkbox" name="terms" id="terms" required>
                 <label for="text">I agree with the <a href="#">terms and conditions</a></label><br>
+
+
+                <!-- TODO: Create separate div container for button -->
                 <button type="submit" id="submit">Register</button>
-             </div>
-        </form>
+
         </div>
+        </form>
+    </div>
     </div>
 </body>
+
 </html>
