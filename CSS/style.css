@@ -57,8 +57,8 @@ img {
     padding: 5px;
 }
 #email, #password{
-    width: 100%;
     padding: 5px;
+    width: 100%;
 }
 .right-section label {
     color: grey;
@@ -83,8 +83,25 @@ img {
 .full-name-container > div > input {
     width: 100%;
 }
+.email-password-container {
+    width: 100%;
+}
+.email-group {
+    margin-bottom: 1rem;
+}
+.password-group {
+    margin-bottom: 1rem;
+}
 
-
+.email-password-container div {
+    width: 100%;
+}
+.email-password-container div > input {
+    width: 100%;
+}
+.register-button {
+    margin-top: 1rem    ;
+}
 
 
 
