@@ -33,9 +33,8 @@
             <button for="submit" class="log-in">Log In</button>
         </div>
         <div class="right-section">
-            <h2>Registration Form</h2>
             <form>
-
+                <h2>Registration Form</h2>
                 <div class="full-name-container">
                     <div class="f-name-group input">
                         <label for="firstname">First Name:</label>
@@ -46,24 +45,28 @@
                         <input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required>
                     </div>
                 </div>
-
+               <div class="email-password-container">
+                <div class="email-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="password-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="text">I agree with the <a href="#">terms and conditions</a></label>
+                </div>
+                
+               </div>
 
                 <!-- TODO: Create separate div container for middle inputs -->
                 <!-- Wrap the label and input in a separate div that defines a group of elements (label and input) -->
-                <label for="email">Email:</label> <br>
-                <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
-                <label for="password">Password:</label><br>
-                <input type="password" name="password" id="password" placeholder="Enter your password" required><br>
-                <input type="checkbox" name="terms" id="terms" required>
-                <label for="text">I agree with the <a href="#">terms and conditions</a></label><br>
 
 
                 <!-- TODO: Create separate div container for button -->
                 <button type="submit" id="submit">Register</button>
-
         </div>
         </form>
-    </div>
     </div>
 </body>
 
